@@ -1,15 +1,34 @@
 body {
   text-align: center;
+  overflow: hidden;
 }
 
-.box {
-  height: 150px;
-  width: 500px;
-  border: 2px solid black;
-  background-color: white;
-  margin: auto;
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  height: 80px;
+  width: 150px;
+  min-width: 100px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px rgba(226, 225, 225, 0.622);
+  margin: 20% 0;
+}
+h1 {
+  font-size: 3em;
+  margin: 10px;
+}
+div > h1,
+.box > h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
 }
