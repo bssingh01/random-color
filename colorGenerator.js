@@ -1,7 +1,7 @@
 let btn = document.querySelector("button");
 let box = document.querySelector(".box");
 
-let colorCode = document.createElement("h2");
+let colorCode = document.createElement("h3");
 colorCode.innerHTML = "rgb(255, 255, 255)";
 box.insertAdjacentElement("beforeend", colorCode);
 
